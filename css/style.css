@@ -1,6 +1,7 @@
 body {
-  background-color: #9985cc;
-  color: #0000FF;
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
 }
 
 nav {
@@ -8,6 +9,8 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+  height: 100px;
+  margin-top: -10px;
 }
 
 .logo {
@@ -44,6 +47,7 @@ li {
 
 article {
   padding-top: 100px;
+  padding-bottom: 20px;
 }
 
 .container {
@@ -53,21 +57,37 @@ article {
 
 body{
   font-size: 16px;
+  padding-bottom: 20px;
 }
 
 h1{
   font-size: 2em; /* 32px */
   line-height: 75%;
+  padding-bottom: 20px;
+}
+
+h3{
+  font-size: 1.5em;
+  padding-bottom: 20px;
 }
 
 p{
   font-size: 100%; /* 16px */
+  padding-bottom: 20px;
 }
 
 a{
   text-decoration: none;
 }
 
+.figcaption {
+    text-size: 10px;
+    padding-bottom: 20px;
+}
+
+.author{
+    font-style: italic;
+}
 a:link { color: #000075; } /* unvisited */
 a:visited { color: #6666ff; } /* visited */
 a:hover { color: #2e2eff; } /* mouse over */
