@@ -81,7 +81,7 @@ a{
 }
 
 .figcaption {
-    text-size: 10px;
+    font-size: 10px;
     padding-bottom: 20px;
 }
 
@@ -91,4 +91,4 @@ a{
 a:link { color: #000075; } /* unvisited */
 a:visited { color: #6666ff; } /* visited */
 a:hover { color: #2e2eff; } /* mouse over */
-a:active { color: ##000075; } /* selected */
+a:active { color: #000075; } /* selected */
